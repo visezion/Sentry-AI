@@ -1,0 +1,1567 @@
+[2025-04-30 14:17:18] INFO: Loading dataset...
+[2025-04-30 14:17:18] INFO: Cleaned dataset not found. Loading raw CSV datasets...
+[2025-04-30 14:17:18] ERROR: No CSV files found in the dataset folder!
+[2025-04-30 14:19:56] INFO: Loading dataset...
+[2025-04-30 14:19:56] INFO: Cleaned dataset not found. Loading raw CSV datasets...
+[2025-04-30 14:19:56] INFO: Loading dataset: dataset\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+[2025-04-30 14:19:56] INFO: Loaded dataset\Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv with shape: (1664, 79)
+[2025-04-30 14:19:56] INFO: Concatenated dataset shape: (1664, 79)
+[2025-04-30 14:19:56] INFO: Cleaning dataset...
+[2025-04-30 14:19:56] INFO: Dataset cleaning completed.
+[2025-04-30 14:19:56] INFO: Cleaned dataset saved for future use.
+[2025-04-30 14:19:56] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:19:56] INFO: Training scaler fitted and saved.
+[2025-04-30 14:19:56] INFO: Loading performance metrics...
+[2025-04-30 14:19:56] INFO: Performance metrics loaded.
+[2025-04-30 14:19:56] INFO: No saved VAE model found. Training...
+[2025-04-30 14:19:56] INFO: Starting VAE training...
+[2025-04-30 14:19:57] INFO: VAE training completed.
+[2025-04-30 14:19:57] INFO: Loading saved RL model...
+[2025-04-30 14:19:57] INFO: [Status Update] Best VAE loss: 0.013218476437032223, Best RL reward: N/A
+[2025-04-30 14:19:57] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:19:57] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:19:57] ERROR: CNN dataset folder not found. Create subfolders 'benign' and 'anomaly'.
+[2025-04-30 14:21:19] INFO: Loading dataset...
+[2025-04-30 14:21:19] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:21:19] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:21:19] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:21:19] INFO: Training scaler fitted and saved.
+[2025-04-30 14:21:19] INFO: Loading performance metrics...
+[2025-04-30 14:21:19] INFO: Performance metrics loaded.
+[2025-04-30 14:21:19] INFO: No saved VAE model found. Training...
+[2025-04-30 14:21:19] INFO: Starting VAE training...
+[2025-04-30 14:21:20] INFO: VAE training completed.
+[2025-04-30 14:21:20] INFO: Loading saved RL model...
+[2025-04-30 14:21:20] INFO: [Status Update] Best VAE loss: 0.01342592854052782, Best RL reward: N/A
+[2025-04-30 14:21:20] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:21:20] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:21:27] INFO: Loading dataset...
+[2025-04-30 14:21:27] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:21:27] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:21:27] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:21:27] INFO: Training scaler fitted and saved.
+[2025-04-30 14:21:27] INFO: Loading performance metrics...
+[2025-04-30 14:21:27] INFO: Performance metrics loaded.
+[2025-04-30 14:21:27] INFO: No saved VAE model found. Training...
+[2025-04-30 14:21:27] INFO: Starting VAE training...
+[2025-04-30 14:21:28] INFO: VAE training completed.
+[2025-04-30 14:21:28] INFO: Loading saved RL model...
+[2025-04-30 14:21:28] INFO: [Status Update] Best VAE loss: 0.01333155483007431, Best RL reward: N/A
+[2025-04-30 14:21:35] INFO: Loading dataset...
+[2025-04-30 14:21:35] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:21:35] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:21:35] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:21:35] INFO: Training scaler fitted and saved.
+[2025-04-30 14:21:35] INFO: Loading performance metrics...
+[2025-04-30 14:21:35] INFO: Performance metrics loaded.
+[2025-04-30 14:21:35] INFO: No saved VAE model found. Training...
+[2025-04-30 14:21:35] INFO: Starting VAE training...
+[2025-04-30 14:21:36] INFO: VAE training completed.
+[2025-04-30 14:21:36] INFO: Loading saved RL model...
+[2025-04-30 14:21:36] INFO: [Status Update] Best VAE loss: 0.013056892901659012, Best RL reward: N/A
+[2025-04-30 14:24:03] INFO: Loading dataset...
+[2025-04-30 14:24:03] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:24:03] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:24:03] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:24:03] INFO: Training scaler fitted and saved.
+[2025-04-30 14:24:03] INFO: Loading performance metrics...
+[2025-04-30 14:24:03] INFO: Performance metrics loaded.
+[2025-04-30 14:24:03] INFO: No saved VAE model found. Training...
+[2025-04-30 14:24:03] INFO: Starting VAE training...
+[2025-04-30 14:24:03] INFO: VAE training completed.
+[2025-04-30 14:24:03] INFO: Loading saved RL model...
+[2025-04-30 14:24:04] INFO: [Status Update] Best VAE loss: 0.012955240905284882, Best RL reward: N/A
+[2025-04-30 14:24:04] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:24:04] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:24:12] INFO: Loading dataset...
+[2025-04-30 14:24:12] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:24:12] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:24:12] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:24:12] INFO: Training scaler fitted and saved.
+[2025-04-30 14:24:12] INFO: Loading performance metrics...
+[2025-04-30 14:24:12] INFO: Performance metrics loaded.
+[2025-04-30 14:24:12] INFO: No saved VAE model found. Training...
+[2025-04-30 14:24:12] INFO: Starting VAE training...
+[2025-04-30 14:24:13] INFO: VAE training completed.
+[2025-04-30 14:24:13] INFO: Loading saved RL model...
+[2025-04-30 14:24:13] INFO: [Status Update] Best VAE loss: 0.0139989722520113, Best RL reward: N/A
+[2025-04-30 14:24:21] INFO: Loading dataset...
+[2025-04-30 14:24:21] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:24:21] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:24:21] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:24:21] INFO: Training scaler fitted and saved.
+[2025-04-30 14:24:21] INFO: Loading performance metrics...
+[2025-04-30 14:24:21] INFO: Performance metrics loaded.
+[2025-04-30 14:24:21] INFO: No saved VAE model found. Training...
+[2025-04-30 14:24:21] INFO: Starting VAE training...
+[2025-04-30 14:24:22] INFO: VAE training completed.
+[2025-04-30 14:24:22] INFO: Loading saved RL model...
+[2025-04-30 14:24:22] INFO: [Status Update] Best VAE loss: 0.013214219361543655, Best RL reward: N/A
+[2025-04-30 14:25:39] INFO: Loading dataset...
+[2025-04-30 14:25:39] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:25:39] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:25:39] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:25:39] INFO: Training scaler fitted and saved.
+[2025-04-30 14:25:39] INFO: Loading performance metrics...
+[2025-04-30 14:25:39] INFO: Performance metrics loaded.
+[2025-04-30 14:25:39] INFO: No saved VAE model found. Training...
+[2025-04-30 14:25:39] INFO: Starting VAE training...
+[2025-04-30 14:25:40] INFO: VAE training completed.
+[2025-04-30 14:25:40] INFO: Loading saved RL model...
+[2025-04-30 14:25:40] INFO: [Status Update] Best VAE loss: 0.013071135617792606, Best RL reward: N/A
+[2025-04-30 14:25:40] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:25:40] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:28:01] INFO: Loading dataset...
+[2025-04-30 14:28:01] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:01] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:01] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:01] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:01] INFO: Loading performance metrics...
+[2025-04-30 14:28:01] INFO: Performance metrics loaded.
+[2025-04-30 14:28:01] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:01] INFO: Starting VAE training...
+[2025-04-30 14:28:02] INFO: VAE training completed.
+[2025-04-30 14:28:02] INFO: Loading saved RL model...
+[2025-04-30 14:28:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:28:02] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:28:02] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:28:09] INFO: Loading dataset...
+[2025-04-30 14:28:09] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:09] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:09] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:09] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:09] INFO: Loading performance metrics...
+[2025-04-30 14:28:09] INFO: Performance metrics loaded.
+[2025-04-30 14:28:09] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:09] INFO: Starting VAE training...
+[2025-04-30 14:28:10] INFO: VAE training completed.
+[2025-04-30 14:28:10] INFO: Loading saved RL model...
+[2025-04-30 14:28:10] INFO: [Status Update] Best VAE loss: 0.013594859279692173, Best RL reward: N/A
+[2025-04-30 14:28:17] INFO: Loading dataset...
+[2025-04-30 14:28:17] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:17] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:17] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:17] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:17] INFO: Loading performance metrics...
+[2025-04-30 14:28:17] INFO: Performance metrics loaded.
+[2025-04-30 14:28:17] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:17] INFO: Starting VAE training...
+[2025-04-30 14:28:18] INFO: VAE training completed.
+[2025-04-30 14:28:18] INFO: Loading saved RL model...
+[2025-04-30 14:28:18] INFO: [Status Update] Best VAE loss: 0.013807330280542374, Best RL reward: N/A
+[2025-04-30 14:28:27] INFO: Loading dataset...
+[2025-04-30 14:28:27] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:27] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:27] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:27] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:27] INFO: Loading performance metrics...
+[2025-04-30 14:28:27] INFO: Performance metrics loaded.
+[2025-04-30 14:28:27] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:27] INFO: Starting VAE training...
+[2025-04-30 14:28:28] INFO: VAE training completed.
+[2025-04-30 14:28:28] INFO: Loading saved RL model...
+[2025-04-30 14:28:28] INFO: [Status Update] Best VAE loss: 0.013563009910285473, Best RL reward: N/A
+[2025-04-30 14:28:36] INFO: Loading dataset...
+[2025-04-30 14:28:36] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:36] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:36] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:36] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:36] INFO: Loading performance metrics...
+[2025-04-30 14:28:36] INFO: Performance metrics loaded.
+[2025-04-30 14:28:36] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:36] INFO: Starting VAE training...
+[2025-04-30 14:28:37] INFO: VAE training completed.
+[2025-04-30 14:28:37] INFO: Loading saved RL model...
+[2025-04-30 14:28:37] INFO: [Status Update] Best VAE loss: 0.013053296133875847, Best RL reward: N/A
+[2025-04-30 14:28:38] INFO: CNN Epoch 1/20, Loss: 0.5507, Val Acc: 0.7633
+[2025-04-30 14:28:45] INFO: Loading dataset...
+[2025-04-30 14:28:45] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:45] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:45] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:45] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:45] INFO: Loading performance metrics...
+[2025-04-30 14:28:45] INFO: Performance metrics loaded.
+[2025-04-30 14:28:45] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:45] INFO: Starting VAE training...
+[2025-04-30 14:28:46] INFO: VAE training completed.
+[2025-04-30 14:28:46] INFO: Loading saved RL model...
+[2025-04-30 14:28:46] INFO: [Status Update] Best VAE loss: 0.01354669127613306, Best RL reward: N/A
+[2025-04-30 14:28:53] INFO: Loading dataset...
+[2025-04-30 14:28:53] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:28:53] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:28:53] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:28:53] INFO: Training scaler fitted and saved.
+[2025-04-30 14:28:53] INFO: Loading performance metrics...
+[2025-04-30 14:28:53] INFO: Performance metrics loaded.
+[2025-04-30 14:28:53] INFO: No saved VAE model found. Training...
+[2025-04-30 14:28:53] INFO: Starting VAE training...
+[2025-04-30 14:28:54] INFO: VAE training completed.
+[2025-04-30 14:28:54] INFO: Loading saved RL model...
+[2025-04-30 14:28:54] INFO: [Status Update] Best VAE loss: 0.013627186417579651, Best RL reward: N/A
+[2025-04-30 14:29:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:29:04] INFO: Loading dataset...
+[2025-04-30 14:29:04] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:04] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:04] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:04] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:04] INFO: Loading performance metrics...
+[2025-04-30 14:29:04] INFO: Performance metrics loaded.
+[2025-04-30 14:29:04] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:04] INFO: Starting VAE training...
+[2025-04-30 14:29:04] INFO: VAE training completed.
+[2025-04-30 14:29:04] INFO: Loading saved RL model...
+[2025-04-30 14:29:04] INFO: [Status Update] Best VAE loss: 0.01349671371281147, Best RL reward: N/A
+[2025-04-30 14:29:13] INFO: Loading dataset...
+[2025-04-30 14:29:13] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:13] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:13] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:13] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:13] INFO: Loading performance metrics...
+[2025-04-30 14:29:13] INFO: Performance metrics loaded.
+[2025-04-30 14:29:13] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:13] INFO: Starting VAE training...
+[2025-04-30 14:29:13] INFO: VAE training completed.
+[2025-04-30 14:29:13] INFO: Loading saved RL model...
+[2025-04-30 14:29:14] INFO: [Status Update] Best VAE loss: 0.013297444209456444, Best RL reward: N/A
+[2025-04-30 14:29:15] INFO: CNN Epoch 2/20, Loss: 0.4962, Val Acc: 0.7633
+[2025-04-30 14:29:22] INFO: Loading dataset...
+[2025-04-30 14:29:22] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:22] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:22] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:22] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:22] INFO: Loading performance metrics...
+[2025-04-30 14:29:22] INFO: Performance metrics loaded.
+[2025-04-30 14:29:22] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:22] INFO: Starting VAE training...
+[2025-04-30 14:29:23] INFO: VAE training completed.
+[2025-04-30 14:29:23] INFO: Loading saved RL model...
+[2025-04-30 14:29:23] INFO: [Status Update] Best VAE loss: 0.013697032816708088, Best RL reward: N/A
+[2025-04-30 14:29:32] INFO: Loading dataset...
+[2025-04-30 14:29:32] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:32] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:32] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:32] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:32] INFO: Loading performance metrics...
+[2025-04-30 14:29:32] INFO: Performance metrics loaded.
+[2025-04-30 14:29:32] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:32] INFO: Starting VAE training...
+[2025-04-30 14:29:33] INFO: VAE training completed.
+[2025-04-30 14:29:33] INFO: Loading saved RL model...
+[2025-04-30 14:29:33] INFO: [Status Update] Best VAE loss: 0.01353931613266468, Best RL reward: N/A
+[2025-04-30 14:29:44] INFO: Loading dataset...
+[2025-04-30 14:29:44] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:44] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:44] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:44] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:44] INFO: Loading performance metrics...
+[2025-04-30 14:29:44] INFO: Performance metrics loaded.
+[2025-04-30 14:29:44] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:44] INFO: Starting VAE training...
+[2025-04-30 14:29:45] INFO: VAE training completed.
+[2025-04-30 14:29:45] INFO: Loading saved RL model...
+[2025-04-30 14:29:45] INFO: [Status Update] Best VAE loss: 0.013666491024196148, Best RL reward: N/A
+[2025-04-30 14:29:53] INFO: Loading dataset...
+[2025-04-30 14:29:53] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:29:53] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:29:53] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:29:53] INFO: Training scaler fitted and saved.
+[2025-04-30 14:29:53] INFO: Loading performance metrics...
+[2025-04-30 14:29:53] INFO: Performance metrics loaded.
+[2025-04-30 14:29:53] INFO: No saved VAE model found. Training...
+[2025-04-30 14:29:53] INFO: Starting VAE training...
+[2025-04-30 14:29:54] INFO: VAE training completed.
+[2025-04-30 14:29:54] INFO: Loading saved RL model...
+[2025-04-30 14:29:54] INFO: [Status Update] Best VAE loss: 0.013581446371972561, Best RL reward: N/A
+[2025-04-30 14:29:55] INFO: CNN Epoch 3/20, Loss: 0.4821, Val Acc: 0.7633
+[2025-04-30 14:30:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:30:03] INFO: Loading dataset...
+[2025-04-30 14:30:03] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:30:03] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:30:03] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:30:03] INFO: Training scaler fitted and saved.
+[2025-04-30 14:30:03] INFO: Loading performance metrics...
+[2025-04-30 14:30:03] INFO: Performance metrics loaded.
+[2025-04-30 14:30:03] INFO: No saved VAE model found. Training...
+[2025-04-30 14:30:03] INFO: Starting VAE training...
+[2025-04-30 14:30:04] INFO: VAE training completed.
+[2025-04-30 14:30:04] INFO: Loading saved RL model...
+[2025-04-30 14:30:04] INFO: [Status Update] Best VAE loss: 0.013367905281484127, Best RL reward: N/A
+[2025-04-30 14:30:13] INFO: Loading dataset...
+[2025-04-30 14:30:13] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:30:13] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:30:13] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:30:13] INFO: Training scaler fitted and saved.
+[2025-04-30 14:30:13] INFO: Loading performance metrics...
+[2025-04-30 14:30:13] INFO: Performance metrics loaded.
+[2025-04-30 14:30:13] INFO: No saved VAE model found. Training...
+[2025-04-30 14:30:13] INFO: Starting VAE training...
+[2025-04-30 14:30:13] INFO: VAE training completed.
+[2025-04-30 14:30:13] INFO: Loading saved RL model...
+[2025-04-30 14:30:13] INFO: [Status Update] Best VAE loss: 0.013327413238584995, Best RL reward: N/A
+[2025-04-30 14:30:23] INFO: Loading dataset...
+[2025-04-30 14:30:23] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:30:23] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:30:23] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:30:23] INFO: Training scaler fitted and saved.
+[2025-04-30 14:30:23] INFO: Loading performance metrics...
+[2025-04-30 14:30:23] INFO: Performance metrics loaded.
+[2025-04-30 14:30:23] INFO: No saved VAE model found. Training...
+[2025-04-30 14:30:23] INFO: Starting VAE training...
+[2025-04-30 14:30:24] INFO: VAE training completed.
+[2025-04-30 14:30:24] INFO: Loading saved RL model...
+[2025-04-30 14:30:24] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:30:32] INFO: Gracefully exiting. Saving models and metrics...
+[2025-04-30 14:30:32] INFO: VAE saved with best loss: 0.0138
+[2025-04-30 14:30:32] INFO: No RL reward recorded; model not saved.
+[2025-04-30 14:30:32] INFO: Performance metrics saved.
+[2025-04-30 14:31:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:32:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:33:02] INFO: [Status Update] Best VAE loss: 0.013388426043093204, Best RL reward: N/A
+[2025-04-30 14:33:26] INFO: Loading dataset...
+[2025-04-30 14:33:26] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:33:26] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:33:26] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:33:26] INFO: Training scaler fitted and saved.
+[2025-04-30 14:33:26] INFO: Loading performance metrics...
+[2025-04-30 14:33:26] INFO: Performance metrics loaded.
+[2025-04-30 14:33:26] INFO: Loading saved VAE model...
+[2025-04-30 14:33:26] INFO: Loading saved RL model...
+[2025-04-30 14:33:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:33:26] INFO: No saved CNN model found. Training robust CNN model...
+[2025-04-30 14:33:26] INFO: Loading CNN dataset from cnn_dataset
+[2025-04-30 14:33:34] INFO: Loading dataset...
+[2025-04-30 14:33:34] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:33:34] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:33:34] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:33:34] INFO: Training scaler fitted and saved.
+[2025-04-30 14:33:34] INFO: Loading performance metrics...
+[2025-04-30 14:33:34] INFO: Performance metrics loaded.
+[2025-04-30 14:33:34] INFO: Loading saved VAE model...
+[2025-04-30 14:33:34] INFO: Loading saved RL model...
+[2025-04-30 14:33:34] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:33:41] INFO: Loading dataset...
+[2025-04-30 14:33:41] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:33:41] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:33:41] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:33:41] INFO: Training scaler fitted and saved.
+[2025-04-30 14:33:41] INFO: Loading performance metrics...
+[2025-04-30 14:33:41] INFO: Performance metrics loaded.
+[2025-04-30 14:33:41] INFO: Loading saved VAE model...
+[2025-04-30 14:33:41] INFO: Loading saved RL model...
+[2025-04-30 14:33:41] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:33:50] INFO: Loading dataset...
+[2025-04-30 14:33:50] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:33:50] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:33:50] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:33:50] INFO: Training scaler fitted and saved.
+[2025-04-30 14:33:50] INFO: Loading performance metrics...
+[2025-04-30 14:33:50] INFO: Performance metrics loaded.
+[2025-04-30 14:33:50] INFO: Loading saved VAE model...
+[2025-04-30 14:33:50] INFO: Loading saved RL model...
+[2025-04-30 14:33:50] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:33:58] INFO: Loading dataset...
+[2025-04-30 14:33:58] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:33:58] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:33:58] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:33:58] INFO: Training scaler fitted and saved.
+[2025-04-30 14:33:58] INFO: Loading performance metrics...
+[2025-04-30 14:33:58] INFO: Performance metrics loaded.
+[2025-04-30 14:33:58] INFO: Loading saved VAE model...
+[2025-04-30 14:33:58] INFO: Loading saved RL model...
+[2025-04-30 14:33:58] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:33:59] INFO: CNN Epoch 1/20, Loss: 0.5337, Val Acc: 0.7988
+[2025-04-30 14:34:07] INFO: Loading dataset...
+[2025-04-30 14:34:07] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:07] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:07] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:07] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:07] INFO: Loading performance metrics...
+[2025-04-30 14:34:07] INFO: Performance metrics loaded.
+[2025-04-30 14:34:07] INFO: Loading saved VAE model...
+[2025-04-30 14:34:07] INFO: Loading saved RL model...
+[2025-04-30 14:34:07] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:16] INFO: Loading dataset...
+[2025-04-30 14:34:16] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:16] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:16] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:16] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:16] INFO: Loading performance metrics...
+[2025-04-30 14:34:16] INFO: Performance metrics loaded.
+[2025-04-30 14:34:16] INFO: Loading saved VAE model...
+[2025-04-30 14:34:16] INFO: Loading saved RL model...
+[2025-04-30 14:34:16] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:26] INFO: Loading dataset...
+[2025-04-30 14:34:26] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:26] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:26] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:26] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:26] INFO: Loading performance metrics...
+[2025-04-30 14:34:26] INFO: Performance metrics loaded.
+[2025-04-30 14:34:26] INFO: Loading saved VAE model...
+[2025-04-30 14:34:26] INFO: Loading saved RL model...
+[2025-04-30 14:34:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:35] INFO: Loading dataset...
+[2025-04-30 14:34:35] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:35] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:35] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:35] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:35] INFO: Loading performance metrics...
+[2025-04-30 14:34:35] INFO: Performance metrics loaded.
+[2025-04-30 14:34:35] INFO: Loading saved VAE model...
+[2025-04-30 14:34:35] INFO: Loading saved RL model...
+[2025-04-30 14:34:35] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:36] INFO: CNN Epoch 2/20, Loss: 0.4942, Val Acc: 0.7988
+[2025-04-30 14:34:46] INFO: Loading dataset...
+[2025-04-30 14:34:46] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:46] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:46] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:46] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:46] INFO: Loading performance metrics...
+[2025-04-30 14:34:46] INFO: Performance metrics loaded.
+[2025-04-30 14:34:46] INFO: Loading saved VAE model...
+[2025-04-30 14:34:46] INFO: Loading saved RL model...
+[2025-04-30 14:34:46] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:34:55] INFO: Loading dataset...
+[2025-04-30 14:34:55] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:34:55] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:34:55] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:34:55] INFO: Training scaler fitted and saved.
+[2025-04-30 14:34:55] INFO: Loading performance metrics...
+[2025-04-30 14:34:55] INFO: Performance metrics loaded.
+[2025-04-30 14:34:55] INFO: Loading saved VAE model...
+[2025-04-30 14:34:55] INFO: Loading saved RL model...
+[2025-04-30 14:34:55] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:35:05] INFO: Loading dataset...
+[2025-04-30 14:35:05] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:35:05] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:35:05] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:35:05] INFO: Training scaler fitted and saved.
+[2025-04-30 14:35:05] INFO: Loading performance metrics...
+[2025-04-30 14:35:05] INFO: Performance metrics loaded.
+[2025-04-30 14:35:05] INFO: Loading saved VAE model...
+[2025-04-30 14:35:05] INFO: Loading saved RL model...
+[2025-04-30 14:35:05] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:35:11] INFO: Gracefully exiting. Saving models and metrics...
+[2025-04-30 14:35:11] INFO: VAE saved with best loss: 0.0138
+[2025-04-30 14:35:11] INFO: No RL reward recorded; model not saved.
+[2025-04-30 14:35:11] INFO: Performance metrics saved.
+[2025-04-30 14:35:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:36:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:37:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:38:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:39:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:40:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:40:57,118] INFO: Metrics loaded.
+[2025-04-30 14:41:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:41:46,245] INFO: Metrics loaded.
+[2025-04-30 14:41:46,903] INFO: VAE ready.
+[2025-04-30 14:41:46,933] INFO: RL ready.
+[2025-04-30 14:42:01,183] INFO: CNN ready.
+[2025-04-30 14:42:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:43:07,833] INFO: Metrics saved.
+[2025-04-30 14:43:20,659] INFO: Metrics loaded.
+[2025-04-30 14:43:20,669] INFO: VAE ready.
+[2025-04-30 14:43:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:44:15,466] INFO: Metrics loaded.
+[2025-04-30 14:44:16,001] INFO: VAE ready.
+[2025-04-30 14:44:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:45:26] INFO: [Status Update] Best VAE loss: 0.01377000194042921, Best RL reward: N/A
+[2025-04-30 14:46:49] INFO: Loading dataset...
+[2025-04-30 14:46:49] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:46:49] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:46:49] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:46:49] INFO: Training scaler fitted and saved.
+[2025-04-30 14:46:49] INFO: Loading performance metrics...
+[2025-04-30 14:46:49] INFO: Performance metrics loaded.
+[2025-04-30 14:46:49] INFO: Loading saved VAE model...
+[2025-04-30 14:47:12] INFO: Loading dataset...
+[2025-04-30 14:47:12] INFO: Found saved cleaned dataset. Loading...
+[2025-04-30 14:47:12] INFO: Cleaned dataset loaded with features shape: (1664, 78) and labels length: 1664
+[2025-04-30 14:47:12] INFO: Data split. Training set shape: (1331, 78), Testing set shape: (333, 78)
+[2025-04-30 14:47:12] INFO: Training scaler fitted and saved.
+[2025-04-30 14:47:12] INFO: Loading performance metrics...
+[2025-04-30 14:47:12] INFO: Performance metrics loaded.
+[2025-04-30 14:47:12] INFO: No saved VAE model found. Training...
+[2025-04-30 14:47:12] INFO: Starting VAE training...
+[2025-04-30 14:47:13] INFO: VAE training completed.
+[2025-04-30 14:47:13] INFO: VAE model saved after training. Best loss: 0.0135
+[2025-04-30 14:47:13] INFO: No saved RL model found. Training new RL model...
+[2025-04-30 14:47:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: [RL Reward Update] Timestep 500: Avg reward = -310.00, Best = -310.0
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: [RL Reward Update] Timestep 1000: Avg reward = -220.00, Best = -220.0
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: [RL Reward Update] Timestep 1500: Avg reward = -291.43, Best = -220.0
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:15] INFO: [RL Reward Update] Timestep 2000: Avg reward = -320.53, Best = -220.0
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: [RL Reward Update] Timestep 2500: Avg reward = -318.75, Best = -220.0
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: [RL Reward Update] Timestep 3000: Avg reward = -334.83, Best = -220.0
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: [RL Reward Update] Timestep 3500: Avg reward = -312.65, Best = -220.0
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: [RL Reward Update] Timestep 4000: Avg reward = -302.05, Best = -220.0
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: [RL Reward Update] Timestep 4500: Avg reward = -298.18, Best = -220.0
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: [RL Reward Update] Timestep 5000: Avg reward = -288.78, Best = -220.0
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: [RL Reward Update] Timestep 5500: Avg reward = -277.04, Best = -220.0
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: [RL Reward Update] Timestep 6000: Avg reward = -271.86, Best = -220.0
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: [RL Reward Update] Timestep 6500: Avg reward = -264.69, Best = -220.0
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: [RL Reward Update] Timestep 7000: Avg reward = -254.06, Best = -220.0
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:19] INFO: [RL Reward Update] Timestep 7500: Avg reward = -247.30, Best = -220.0
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: [RL Reward Update] Timestep 8000: Avg reward = -243.16, Best = -220.0
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: [RL Reward Update] Timestep 8500: Avg reward = -234.17, Best = -220.0
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: [RL Reward Update] Timestep 9000: Avg reward = -228.20, Best = -220.0
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: [RL Reward Update] Timestep 9500: Avg reward = -221.91, Best = -220.0
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: [RL Reward Update] Timestep 10000: Avg reward = -214.34, Best = -214.34343434343435
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: [RL Reward Update] Timestep 10500: Avg reward = -209.40, Best = -209.4
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: [RL Reward Update] Timestep 11000: Avg reward = -205.60, Best = -205.6
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:22] INFO: [RL Reward Update] Timestep 11500: Avg reward = -186.40, Best = -186.4
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: [RL Reward Update] Timestep 12000: Avg reward = -171.50, Best = -171.5
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: [RL Reward Update] Timestep 12500: Avg reward = -156.30, Best = -156.3
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: [RL Reward Update] Timestep 13000: Avg reward = -136.50, Best = -136.5
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: [RL Reward Update] Timestep 13500: Avg reward = -126.10, Best = -126.1
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:24] INFO: [RL Reward Update] Timestep 14000: Avg reward = -112.90, Best = -112.9
+[2025-04-30 14:47:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: [RL Reward Update] Timestep 14500: Avg reward = -100.90, Best = -100.9
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: [RL Reward Update] Timestep 15000: Avg reward = -84.50, Best = -84.5
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: [RL Reward Update] Timestep 15500: Avg reward = -69.10, Best = -69.1
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: [RL Reward Update] Timestep 16000: Avg reward = -54.10, Best = -54.1
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: [RL Reward Update] Timestep 16500: Avg reward = -42.20, Best = -42.2
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: [RL Reward Update] Timestep 17000: Avg reward = -29.30, Best = -29.3
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: [RL Reward Update] Timestep 17500: Avg reward = -18.20, Best = -18.2
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:27] INFO: [RL Reward Update] Timestep 18000: Avg reward = -4.70, Best = -4.7
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: [RL Reward Update] Timestep 18500: Avg reward = 3.70, Best = 3.7
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: [RL Reward Update] Timestep 19000: Avg reward = 14.50, Best = 14.5
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: [RL Reward Update] Timestep 19500: Avg reward = 23.20, Best = 23.2
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: [RL Reward Update] Timestep 20000: Avg reward = 36.90, Best = 36.9
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:29] INFO: [RL Reward Update] Timestep 20500: Avg reward = 53.20, Best = 53.2
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: [RL Reward Update] Timestep 21000: Avg reward = 73.60, Best = 73.6
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: [RL Reward Update] Timestep 21500: Avg reward = 82.60, Best = 82.6
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: [RL Reward Update] Timestep 22000: Avg reward = 100.60, Best = 100.6
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: [RL Reward Update] Timestep 22500: Avg reward = 108.50, Best = 108.5
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:31] INFO: [RL Reward Update] Timestep 23000: Avg reward = 116.80, Best = 116.8
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: [RL Reward Update] Timestep 23500: Avg reward = 129.60, Best = 129.6
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:32] INFO: [RL Reward Update] Timestep 24000: Avg reward = 139.90, Best = 139.9
+[2025-04-30 14:47:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: [RL Reward Update] Timestep 24500: Avg reward = 155.70, Best = 155.7
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: [RL Reward Update] Timestep 25000: Avg reward = 161.70, Best = 161.7
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: [RL Reward Update] Timestep 25500: Avg reward = 171.10, Best = 171.1
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: [RL Reward Update] Timestep 26000: Avg reward = 182.20, Best = 182.2
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:34] INFO: [RL Reward Update] Timestep 26500: Avg reward = 197.40, Best = 197.4
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: [RL Reward Update] Timestep 27000: Avg reward = 207.70, Best = 207.7
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: [RL Reward Update] Timestep 27500: Avg reward = 223.60, Best = 223.6
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: [RL Reward Update] Timestep 28000: Avg reward = 241.40, Best = 241.4
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: [RL Reward Update] Timestep 28500: Avg reward = 253.80, Best = 253.8
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:36] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: [RL Reward Update] Timestep 29000: Avg reward = 266.90, Best = 266.9
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: [RL Reward Update] Timestep 29500: Avg reward = 283.60, Best = 283.6
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:37] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: [RL Reward Update] Timestep 30000: Avg reward = 298.10, Best = 298.1
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: [RL Reward Update] Timestep 30500: Avg reward = 311.60, Best = 311.6
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:38] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: [RL Reward Update] Timestep 31000: Avg reward = 321.10, Best = 321.1
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:39] INFO: [RL Reward Update] Timestep 31500: Avg reward = 334.70, Best = 334.7
+[2025-04-30 14:47:39] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: [RL Reward Update] Timestep 32000: Avg reward = 343.50, Best = 343.5
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:40] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: [RL Reward Update] Timestep 32500: Avg reward = 359.40, Best = 359.4
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: [RL Reward Update] Timestep 33000: Avg reward = 378.90, Best = 378.9
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:41] INFO: [RL Reward Update] Timestep 33500: Avg reward = 388.70, Best = 388.7
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: [RL Reward Update] Timestep 34000: Avg reward = 402.10, Best = 402.1
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: [RL Reward Update] Timestep 34500: Avg reward = 413.90, Best = 413.9
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: [RL Reward Update] Timestep 35000: Avg reward = 429.50, Best = 429.5
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: [RL Reward Update] Timestep 35500: Avg reward = 442.30, Best = 442.3
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: [RL Reward Update] Timestep 36000: Avg reward = 453.70, Best = 453.7
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: [RL Reward Update] Timestep 36500: Avg reward = 462.30, Best = 462.3
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: [RL Reward Update] Timestep 37000: Avg reward = 477.70, Best = 477.7
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: [RL Reward Update] Timestep 37500: Avg reward = 487.00, Best = 487.0
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: [RL Reward Update] Timestep 38000: Avg reward = 497.70, Best = 497.7
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: [RL Reward Update] Timestep 38500: Avg reward = 510.70, Best = 510.7
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:46] INFO: [RL Reward Update] Timestep 39000: Avg reward = 526.10, Best = 526.1
+[2025-04-30 14:47:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: [RL Reward Update] Timestep 39500: Avg reward = 537.60, Best = 537.6
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:47] INFO: [RL Reward Update] Timestep 40000: Avg reward = 548.30, Best = 548.3
+[2025-04-30 14:47:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: [RL Reward Update] Timestep 40500: Avg reward = 564.10, Best = 564.1
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:48] INFO: [RL Reward Update] Timestep 41000: Avg reward = 572.00, Best = 572.0
+[2025-04-30 14:47:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: [RL Reward Update] Timestep 41500: Avg reward = 586.70, Best = 586.7
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: [RL Reward Update] Timestep 42000: Avg reward = 602.10, Best = 602.1
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: [RL Reward Update] Timestep 42500: Avg reward = 615.10, Best = 615.1
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: [RL Reward Update] Timestep 43000: Avg reward = 626.10, Best = 626.1
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: [RL Reward Update] Timestep 43500: Avg reward = 640.60, Best = 640.6
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: [RL Reward Update] Timestep 44000: Avg reward = 651.80, Best = 651.8
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:51] INFO: [RL Reward Update] Timestep 44500: Avg reward = 663.50, Best = 663.5
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: [RL Reward Update] Timestep 45000: Avg reward = 676.00, Best = 676.0
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:52] INFO: [RL Reward Update] Timestep 45500: Avg reward = 688.40, Best = 688.4
+[2025-04-30 14:47:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: [RL Reward Update] Timestep 46000: Avg reward = 701.40, Best = 701.4
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: [RL Reward Update] Timestep 46500: Avg reward = 715.90, Best = 715.9
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: [RL Reward Update] Timestep 47000: Avg reward = 728.10, Best = 728.1
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: [RL Reward Update] Timestep 47500: Avg reward = 744.40, Best = 744.4
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: [RL Reward Update] Timestep 48000: Avg reward = 756.10, Best = 756.1
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: [RL Reward Update] Timestep 48500: Avg reward = 770.00, Best = 770.0
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: [RL Reward Update] Timestep 49000: Avg reward = 782.30, Best = 782.3
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: [RL Reward Update] Timestep 49500: Avg reward = 795.70, Best = 795.7
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:56] INFO: [RL Reward Update] Timestep 50000: Avg reward = 808.30, Best = 808.3
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: [RL Reward Update] Timestep 50500: Avg reward = 817.20, Best = 817.2
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:57] INFO: [RL Reward Update] Timestep 51000: Avg reward = 829.80, Best = 829.8
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: [RL Reward Update] Timestep 51500: Avg reward = 842.40, Best = 842.4
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:58] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: [RL Reward Update] Timestep 52000: Avg reward = 852.00, Best = 852.0
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: [RL Reward Update] Timestep 52500: Avg reward = 863.30, Best = 863.3
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:47:59] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: [RL Reward Update] Timestep 53000: Avg reward = 872.30, Best = 872.3
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:00] INFO: [RL Reward Update] Timestep 53500: Avg reward = 880.20, Best = 880.2
+[2025-04-30 14:48:00] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: [RL Reward Update] Timestep 54000: Avg reward = 890.90, Best = 890.9
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:01] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: [RL Reward Update] Timestep 54500: Avg reward = 900.20, Best = 900.2
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: [RL Reward Update] Timestep 55000: Avg reward = 906.60, Best = 906.6
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:02] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: [RL Reward Update] Timestep 55500: Avg reward = 910.30, Best = 910.3
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: [RL Reward Update] Timestep 56000: Avg reward = 917.70, Best = 917.7
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:03] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: [RL Reward Update] Timestep 56500: Avg reward = 923.80, Best = 923.8
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: [RL Reward Update] Timestep 57000: Avg reward = 926.70, Best = 926.7
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:04] INFO: [RL Reward Update] Timestep 57500: Avg reward = 928.20, Best = 928.2
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: [RL Reward Update] Timestep 58000: Avg reward = 929.00, Best = 929.0
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:05] INFO: [RL Reward Update] Timestep 58500: Avg reward = 934.00, Best = 934.0
+[2025-04-30 14:48:05] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: [RL Reward Update] Timestep 59000: Avg reward = 935.10, Best = 935.1
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: [RL Reward Update] Timestep 59500: Avg reward = 938.30, Best = 938.3
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:06] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: [RL Reward Update] Timestep 60000: Avg reward = 938.10, Best = 938.3
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: [RL Reward Update] Timestep 60500: Avg reward = 940.70, Best = 940.7
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:07] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: [RL Reward Update] Timestep 61000: Avg reward = 940.00, Best = 940.7
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: [RL Reward Update] Timestep 61500: Avg reward = 937.60, Best = 940.7
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:08] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: [RL Reward Update] Timestep 62000: Avg reward = 937.10, Best = 940.7
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: [RL Reward Update] Timestep 62500: Avg reward = 934.20, Best = 940.7
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:09] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: [RL Reward Update] Timestep 63000: Avg reward = 932.00, Best = 940.7
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: [RL Reward Update] Timestep 63500: Avg reward = 932.10, Best = 940.7
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:10] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: [RL Reward Update] Timestep 64000: Avg reward = 932.90, Best = 940.7
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: [RL Reward Update] Timestep 64500: Avg reward = 932.10, Best = 940.7
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:11] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: [RL Reward Update] Timestep 65000: Avg reward = 931.80, Best = 940.7
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: [RL Reward Update] Timestep 65500: Avg reward = 933.80, Best = 940.7
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:12] INFO: [RL Reward Update] Timestep 66000: Avg reward = 933.00, Best = 940.7
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: [RL Reward Update] Timestep 66500: Avg reward = 932.90, Best = 940.7
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:13] INFO: [RL Reward Update] Timestep 67000: Avg reward = 933.30, Best = 940.7
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: [RL Reward Update] Timestep 67500: Avg reward = 932.00, Best = 940.7
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:14] INFO: [RL Reward Update] Timestep 68000: Avg reward = 934.50, Best = 940.7
+[2025-04-30 14:48:14] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: [RL Reward Update] Timestep 68500: Avg reward = 934.60, Best = 940.7
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:15] INFO: [RL Reward Update] Timestep 69000: Avg reward = 935.70, Best = 940.7
+[2025-04-30 14:48:15] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: [RL Reward Update] Timestep 69500: Avg reward = 934.00, Best = 940.7
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:16] INFO: [RL Reward Update] Timestep 70000: Avg reward = 932.80, Best = 940.7
+[2025-04-30 14:48:16] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: [RL Reward Update] Timestep 70500: Avg reward = 933.00, Best = 940.7
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:17] INFO: [RL Reward Update] Timestep 71000: Avg reward = 933.00, Best = 940.7
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: [RL Reward Update] Timestep 71500: Avg reward = 934.60, Best = 940.7
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:18] INFO: [RL Reward Update] Timestep 72000: Avg reward = 934.60, Best = 940.7
+[2025-04-30 14:48:18] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: [RL Reward Update] Timestep 72500: Avg reward = 935.80, Best = 940.7
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:19] INFO: [RL Reward Update] Timestep 73000: Avg reward = 936.60, Best = 940.7
+[2025-04-30 14:48:19] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: [RL Reward Update] Timestep 73500: Avg reward = 937.00, Best = 940.7
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:20] INFO: [RL Reward Update] Timestep 74000: Avg reward = 934.80, Best = 940.7
+[2025-04-30 14:48:20] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: [RL Reward Update] Timestep 74500: Avg reward = 934.10, Best = 940.7
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: [RL Reward Update] Timestep 75000: Avg reward = 933.60, Best = 940.7
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:21] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: [RL Reward Update] Timestep 75500: Avg reward = 931.20, Best = 940.7
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: [RL Reward Update] Timestep 76000: Avg reward = 931.50, Best = 940.7
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:22] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: [RL Reward Update] Timestep 76500: Avg reward = 931.90, Best = 940.7
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: [RL Reward Update] Timestep 77000: Avg reward = 929.10, Best = 940.7
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:23] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: [RL Reward Update] Timestep 77500: Avg reward = 930.00, Best = 940.7
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: [RL Reward Update] Timestep 78000: Avg reward = 929.40, Best = 940.7
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:24] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: [RL Reward Update] Timestep 78500: Avg reward = 927.20, Best = 940.7
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: [RL Reward Update] Timestep 79000: Avg reward = 927.60, Best = 940.7
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:25] INFO: [RL Reward Update] Timestep 79500: Avg reward = 927.80, Best = 940.7
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: [RL Reward Update] Timestep 80000: Avg reward = 928.10, Best = 940.7
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:26] INFO: [RL Reward Update] Timestep 80500: Avg reward = 927.30, Best = 940.7
+[2025-04-30 14:48:26] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: [RL Reward Update] Timestep 81000: Avg reward = 927.90, Best = 940.7
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:27] INFO: [RL Reward Update] Timestep 81500: Avg reward = 927.00, Best = 940.7
+[2025-04-30 14:48:27] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: [RL Reward Update] Timestep 82000: Avg reward = 926.70, Best = 940.7
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: [RL Reward Update] Timestep 82500: Avg reward = 927.90, Best = 940.7
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:28] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: [RL Reward Update] Timestep 83000: Avg reward = 929.60, Best = 940.7
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: [RL Reward Update] Timestep 83500: Avg reward = 930.20, Best = 940.7
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:29] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: [RL Reward Update] Timestep 84000: Avg reward = 930.90, Best = 940.7
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: [RL Reward Update] Timestep 84500: Avg reward = 930.50, Best = 940.7
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:30] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: [RL Reward Update] Timestep 85000: Avg reward = 932.20, Best = 940.7
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: [RL Reward Update] Timestep 85500: Avg reward = 934.10, Best = 940.7
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:31] INFO: [RL Reward Update] Timestep 86000: Avg reward = 934.80, Best = 940.7
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: [RL Reward Update] Timestep 86500: Avg reward = 933.50, Best = 940.7
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:32] INFO: [RL Reward Update] Timestep 87000: Avg reward = 935.00, Best = 940.7
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: [RL Reward Update] Timestep 87500: Avg reward = 936.00, Best = 940.7
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:33] INFO: [RL Reward Update] Timestep 88000: Avg reward = 935.50, Best = 940.7
+[2025-04-30 14:48:33] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: [RL Reward Update] Timestep 88500: Avg reward = 937.30, Best = 940.7
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:34] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: [RL Reward Update] Timestep 89000: Avg reward = 937.00, Best = 940.7
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: [RL Reward Update] Timestep 89500: Avg reward = 937.50, Best = 940.7
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:35] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:36] INFO: Episode reset. Mode: live
