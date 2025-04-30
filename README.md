@@ -7,6 +7,7 @@
 **SENTRY-AI** is an advanced, real-time **AI-powered Network Intrusion Detection System (NIDS)** that combines **deep learning**, **computer vision**, and **reinforcement learning** to detect, explain, and autonomously respond to cyber threats.
 
 By fusing tabular network traffic data with visual pattern recognition (via GAF image transformations), SENTRY-AI delivers precise, explainable, and actionable anomaly detection — all within an interactive Flask dashboard.
+![Capture](https://github.com/user-attachments/assets/6ec44ba8-dd74-4eab-811d-b31869b092dc)
 
 ---
 
