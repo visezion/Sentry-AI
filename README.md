@@ -2,7 +2,7 @@
 
 **Author:** Victor Ayodeji Oluwasusi  
 **Version:** 1.0.0  
-**Date:** April 2025  
+**Date:** February 2025  
 
 **SENTRY-AI** is an advanced, real-time **AI-powered Network Intrusion Detection System (NIDS)** that combines **deep learning**, **computer vision**, and **reinforcement learning** to detect, explain, and autonomously respond to cyber threats.
 
