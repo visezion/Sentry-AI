@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SENTRY-AI Dashboard</title>
+  <!-- Bootstrap CSS for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Chart.js for displaying charts -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Socket.IO -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.1/socket.io.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <style>
+    body {
+      background: #f7f9fc;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .navbar {
+      margin-bottom: 20px;
+    }
+    .card {
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .update-list li {
+      margin-bottom: 5px;
+      padding: 5px;
+      border-bottom: 1px solid #eee;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar with links to endpoints -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="/">SENTRY-AI Dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+         <ul class="navbar-nav ms-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="/">Dashboard</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/anomalies">Anomalies</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/predict">Predict Action</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/performance">Performance</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/ai_growth">AI Growth</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/test_model">Test Model</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/live_predictions">Live Predictions</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="/visualize_anomalies">Visualize Anomalies</a>
+           </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Dashboard Container -->
+  <div class="container">
+    <div class="row">
+      <!-- AI Growth Metrics Card -->
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header">
+            AI Growth Metrics
+          </div>
+          <div class="card-body">
+            <div id="growthMetrics">
+              <!-- Growth metrics data will be inserted here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Simulation Controls Card -->
+      <div class="col-md-5">
+        <div class="card">
+          <div class="card-header">
+            Simulation Controls
+          </div>
+          <div class="card-body">
+            <button id="startSimulation" class="btn btn-danger">Start Port Scan Simulation</button>
+            <button id="stopSimulation" class="btn btn-secondary">Stop Port Scan Simulation</button>
+            <div id="simulationStatus" class="mt-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <!-- Performance Metrics Card -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Performance Metrics
+          </div>
+          <div class="card-body">
+            <canvas id="lossChart" width="400" height="200"></canvas>
+            <hr>
+            <canvas id="rewardChart" width="400" height="200"></canvas>
+          </div>
+        </div>
+      </div>
+      <!-- Real-Time Updates Card -->
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Real-Time Updates
+          </div>
+          <div class="card-body">
+            <ul id="updateList" class="list-unstyled update-list"></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- New Row for Visualize Anomalies -->
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        Visualize Anomalies
+      </div>
+      <div class="card-body">
+        <button id="visualizeAnomaliesBtn" class="btn btn-warning">Show Anomaly Images</button>
+        <div id="visualizeResults" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Model Testing Card -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            Model Test Samples
+          </div>
+          <div class="card-body">
+            <button id="testModelBtn" class="btn btn-primary">Test Model Samples</button>
+            <div id="testResults" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Live Packet Predictions Card -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card">
+          <div class="card-header">
+            Live Packet Predictions
+          </div>
+          <div class="card-body">
+            <button id="livePredBtn" class="btn btn-info">Get Live Packet Predictions</button>
+            <div id="livePredResults" class="mt-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const socket = io();
+
+    // Listen for live updates and display detailed info
+    socket.on("live_update", function(data) {
+      const updateList = document.getElementById("updateList");
+      const item = document.createElement("li");
+      // Use available fields (and handle if a field is undefined)
+      item.textContent = `[${data.timestamp}] Packets: ${data.packet_count}, Predicted Action: ${data.predicted_action}, Interface: ${data.interface_status}, Protocols: ${JSON.stringify(data.protocol_distribution)}, Unique IPs: ${data.unique_ips ? data.unique_ips.join(', ') : ''}`;
+      updateList.insertBefore(item, updateList.firstChild);
+    });
+
+    // Set up Chart.js charts for anomaly loss and RL rewards
+    const lossCtx = document.getElementById('lossChart').getContext('2d');
+    const rewardCtx = document.getElementById('rewardChart').getContext('2d');
+
+    let lossChart = new Chart(lossCtx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'Anomaly Detector Loss',
+          data: [],
+          borderColor: 'rgba(255, 99, 132, 1)',
+          backgroundColor: 'rgba(255, 99, 132, 0.2)',
+          fill: false,
+          tension: 0.1
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: { title: { display: true, text: 'Epoch' } },
+          y: { title: { display: true, text: 'Loss' } }
+        }
+      }
+    });
+
+    let rewardChart = new Chart(rewardCtx, {
+      type: 'line',
+      data: {
+        labels: [],
+        datasets: [{
+          label: 'RL Average Reward',
+          data: [],
+          borderColor: 'rgba(54, 162, 235, 1)',
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          fill: false,
+          tension: 0.1
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          x: { title: { display: true, text: 'Timestep' } },
+          y: { title: { display: true, text: 'Average Reward' } }
+        }
+      }
+    });
+
+    async function updateMetrics() {
+      try {
+        const response = await fetch('/performance');
+        const data = await response.json();
+        const lossHistory = data.anomaly_loss_history || [];
+        lossChart.data.labels = lossHistory.map(item => item[0]);
+        lossChart.data.datasets[0].data = lossHistory.map(item => item[1]);
+        lossChart.update();
+        const rewardHistory = data.rl_reward_history || [];
+        rewardChart.data.labels = rewardHistory.map(item => item[0]);
+        rewardChart.data.datasets[0].data = rewardHistory.map(item => item[1]);
+        rewardChart.update();
+      } catch (error) {
+        console.error('Error fetching performance metrics:', error);
+      }
+    }
+
+    async function updateGrowthMetrics() {
+      try {
+        const response = await fetch('/ai_growth');
+        const data = await response.json();
+        let html = '<p><strong>Anomaly Loss Improvement:</strong> ' +
+                   (data.anomaly_loss_improvement_pct !== 'N/A' ? Number(data.anomaly_loss_improvement_pct).toFixed(2) + '%' : 'N/A') +
+                   '</p>';
+        html += '<p><strong>Last Best Anomaly Loss:</strong> ' +
+                   (data.last_best_anomaly_loss !== 'N/A' ? Number(data.last_best_anomaly_loss).toFixed(4) : 'N/A') +
+                   '</p>';
+        html += '<p><strong>RL Reward Improvement:</strong> ' +
+                   (data.rl_reward_improvement_pct !== 'N/A' ? Number(data.rl_reward_improvement_pct).toFixed(2) + '%' : 'N/A') +
+                   '</p>';
+        html += '<p><strong>Last Best RL Reward:</strong> ' +
+                   (data.last_best_rl_reward !== 'N/A' ? Number(data.last_best_rl_reward).toFixed(2) : 'N/A') +
+                   '</p>';
+        document.getElementById("growthMetrics").innerHTML = html;
+      } catch (error) {
+        console.error('Error fetching AI growth metrics:', error);
+      }
+    }
+
+    setInterval(updateMetrics, 5000);
+    setInterval(updateGrowthMetrics, 5000);
+
+    // Functions to control simulation via AJAX calls
+    $("#startSimulation").click(function() {
+      $.post("/start_port_scan", function(response) {
+        $("#simulationStatus").text(response.message).removeClass("text-danger").addClass("text-success");
+      }).fail(function() {
+        $("#simulationStatus").text("Failed to start simulation.").removeClass("text-success").addClass("text-danger");
+      });
+    });
+
+    $("#stopSimulation").click(function() {
+      $.post("/stop_port_scan", function(response) {
+        $("#simulationStatus").text(response.message).removeClass("text-danger").addClass("text-success");
+      }).fail(function() {
+        $("#simulationStatus").text("Failed to stop simulation.").removeClass("text-success").addClass("text-danger");
+      });
+    });
+
+    // Test Model Samples button functionality
+    $("#testModelBtn").click(function() {
+      $("#testResults").html('<p>Loading test results...</p>');
+      $.get("/test_model", function(response) {
+        let html = '<h5>Anomaly Sample:</h5>';
+        if (typeof response.anomaly_sample === "object") {
+          html += '<pre>' + JSON.stringify(response.anomaly_sample, null, 2) + '</pre>';
+        } else {
+          html += '<p>' + response.anomaly_sample + '</p>';
+        }
+        html += '<h5>Benign Sample:</h5>';
+        if (typeof response.benign_sample === "object") {
+          html += '<pre>' + JSON.stringify(response.benign_sample, null, 2) + '</pre>';
+        } else {
+          html += '<p>' + response.benign_sample + '</p>';
+        }
+        $("#testResults").html(html);
+      }).fail(function(error) {
+        $("#testResults").html('<p>Error fetching test results.</p>');
+      });
+    });
+
+    // Live Packet Predictions button functionality
+    $("#livePredBtn").click(function() {
+      $("#livePredResults").html('<p>Loading live packet predictions...</p>');
+      $.get("/live_predictions", function(response) {
+        let html = '<h5>Live Packet Predictions:</h5>';
+        if(response.predictions && Array.isArray(response.predictions)) {
+          response.predictions.forEach(pred => {
+            html += '<pre>' + JSON.stringify(pred, null, 2) + '</pre>';
+          });
+        } else {
+          html += '<p>' + response.predictions + '</p>';
+        }
+        $("#livePredResults").html(html);
+      }).fail(function(error) {
+        $("#livePredResults").html('<p>Error fetching live predictions.</p>');
+      });
+    });
+
+    // Replace your current visualize_anomalies JS block with something like:
+$("#visualizeAnomaliesBtn").click(function() {
+  $("#visualizeResults").html('<p>Loading anomaly visualizations...</p>');
+  $.get("/visualize_anomalies", function(response) {
+    let html = '<h5>Real Anomaly Visualizations:</h5>';
+    if(response.visualizations && Array.isArray(response.visualizations)) {
+      response.visualizations.forEach(vis => {
+        html += '<div class="mb-3">';
+        html += `<p><strong>Predicted Action:</strong> ${vis.predicted_action}</p>`;
+        html += `<img src="data:image/png;base64,${vis.image}" alt="Anomaly Image" class="img-fluid" style="max-width:300px;"/><br/>`;
+        html += `<small>Heatmap:</small><br/>`;
+        html += `<img src="data:image/png;base64,${vis.heatmap}" alt="Grad-CAM Heatmap" class="img-fluid" style="max-width:300px;"/>`;
+        html += '</div>';
+      });
+    } else {
+      html += '<p>No visualizations available.</p>';
+    }
+    $("#visualizeResults").html(html);
+  }).fail(function(error) {
+    $("#visualizeResults").html('<p>Error fetching visualizations.</p>');
+  });
+});
+  </script>
+</body>
+</html>

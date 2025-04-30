@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SENTRY-AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #1e1e1e, #3b3b3b);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .login-box {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(255, 87, 34, 0.7);
+        }
+        .login-box input {
+            margin: 10px 0;
+        }
+        .login-box button {
+            background-color: #ff5722;
+            border: none;
+            transition: 0.3s;
+        }
+        .login-box button:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>🔐 SENTRY-AI Login</h2>
+        <form method="POST" action="/login">
+            <input type="text" name="username" class="form-control" placeholder="Username" required>
+            <input type="password" name="password" class="form-control" placeholder="Password" required>
+            <button class="btn btn-danger w-100 mt-3" type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
