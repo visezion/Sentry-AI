@@ -372,6 +372,9 @@ if os.path.exists(ANOMALY_MODEL_PATH):
 else:
     logger.info("No saved VAE model found. Training...")
     train_anomaly_detector()
+    torch.save(detector.state_dict(), ANOMALY_MODEL_PATH)
+    logger.info(f"VAE model saved after training. Best loss: {monitor.get_best_anomaly_loss()[1]:.4f}")
+
 
 # =============================================================================
 # CUSTOM REINFORCEMENT LEARNING ENVIRONMENT (CYBER DEFENSE)
@@ -606,12 +609,14 @@ def train_cnn_model_robust(epochs=20, batch_size=32, learning_rate=0.001):
     train_transforms = transforms.Compose([
         transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
         transforms.RandomHorizontalFlip(),
+        transforms.Grayscale(num_output_channels=1),
         transforms.ToTensor()
     ])
     val_transforms = transforms.Compose([
-        transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
-        transforms.ToTensor()
-    ])
+            transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),
+            transforms.Grayscale(num_output_channels=1),
+            transforms.ToTensor()
+        ])
     full_dataset = datasets.ImageFolder(root=CNN_DATASET_PATH, transform=train_transforms)
     if len(full_dataset) == 0:
         raise FileNotFoundError(f"No valid images found in {CNN_DATASET_PATH}.")

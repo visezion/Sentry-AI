@@ -1623,3 +1623,203 @@
 [2025-04-30 14:48:41] INFO: Episode reset. Mode: live
 [2025-04-30 14:48:41] INFO: [RL Reward Update] Timestep 94500: Avg reward = 940.20, Best = 942.5
 [2025-04-30 14:48:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:41] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:41] INFO: [RL Reward Update] Timestep 95000: Avg reward = 938.70, Best = 942.5
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: [RL Reward Update] Timestep 95500: Avg reward = 940.00, Best = 942.5
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:42] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: [RL Reward Update] Timestep 96000: Avg reward = 940.30, Best = 942.5
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: [RL Reward Update] Timestep 96500: Avg reward = 941.00, Best = 942.5
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:43] INFO: [RL Reward Update] Timestep 97000: Avg reward = 940.20, Best = 942.5
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: [RL Reward Update] Timestep 97500: Avg reward = 940.20, Best = 942.5
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:44] INFO: [RL Reward Update] Timestep 98000: Avg reward = 941.00, Best = 942.5
+[2025-04-30 14:48:44] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: [RL Reward Update] Timestep 98500: Avg reward = 939.00, Best = 942.5
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:45] INFO: [RL Reward Update] Timestep 99000: Avg reward = 938.20, Best = 942.5
+[2025-04-30 14:48:45] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: [RL Reward Update] Timestep 99500: Avg reward = 937.40, Best = 942.5
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:46] INFO: [RL Reward Update] Timestep 100000: Avg reward = 935.30, Best = 942.5
+[2025-04-30 14:48:46] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: [RL Reward Update] Timestep 100500: Avg reward = 933.40, Best = 942.5
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:47] INFO: [RL Reward Update] Timestep 101000: Avg reward = 931.60, Best = 942.5
+[2025-04-30 14:48:47] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: [RL Reward Update] Timestep 101500: Avg reward = 932.10, Best = 942.5
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: [RL Reward Update] Timestep 102000: Avg reward = 930.40, Best = 942.5
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:48] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: [RL Reward Update] Timestep 102500: Avg reward = 932.40, Best = 942.5
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: [RL Reward Update] Timestep 103000: Avg reward = 932.50, Best = 942.5
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:49] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: [RL Reward Update] Timestep 103500: Avg reward = 932.00, Best = 942.5
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: [RL Reward Update] Timestep 104000: Avg reward = 933.10, Best = 942.5
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:50] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: [RL Reward Update] Timestep 104500: Avg reward = 933.70, Best = 942.5
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: [RL Reward Update] Timestep 105000: Avg reward = 934.70, Best = 942.5
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:51] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: [RL Reward Update] Timestep 105500: Avg reward = 932.50, Best = 942.5
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: [RL Reward Update] Timestep 106000: Avg reward = 931.90, Best = 942.5
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:52] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: [RL Reward Update] Timestep 106500: Avg reward = 931.50, Best = 942.5
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: [RL Reward Update] Timestep 107000: Avg reward = 931.70, Best = 942.5
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:53] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: [RL Reward Update] Timestep 107500: Avg reward = 932.00, Best = 942.5
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: [RL Reward Update] Timestep 108000: Avg reward = 932.40, Best = 942.5
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:54] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: [RL Reward Update] Timestep 108500: Avg reward = 933.70, Best = 942.5
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: [RL Reward Update] Timestep 109000: Avg reward = 932.20, Best = 942.5
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:55] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: [RL Reward Update] Timestep 109500: Avg reward = 932.70, Best = 942.5
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: [RL Reward Update] Timestep 110000: Avg reward = 933.40, Best = 942.5
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:56] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: [RL Reward Update] Timestep 110500: Avg reward = 936.90, Best = 942.5
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: [RL Reward Update] Timestep 111000: Avg reward = 937.60, Best = 942.5
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
+[2025-04-30 14:48:57] INFO: Episode reset. Mode: live
