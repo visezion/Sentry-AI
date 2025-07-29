@@ -11,6 +11,10 @@ By fusing tabular network traffic data with visual pattern recognition (via GAF 
 
 ---
 
+![Build Status](https://github.com/visezion/Sentry-AI/actions/workflows/ci.yml/badge.svg)
+![Security Status](https://github.com/visezion/Sentry-AI/security/code-scanning)
+
+
 ## 🚀 Key Features
 
 🔍 **Multi-Modal Threat Detection**  
