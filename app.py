@@ -502,7 +502,7 @@ def periodic_status():
 socketio.start_background_task(target=periodic_status)
 
 # =============================================================================
-# PACKET SNIFFING & LIVE DATA PROCESSING
+# PACKET SNIFFING & LIVE DATA PROCESSING.
 # =============================================================================
 def extract_features(packet):
     """Extracts numerical features from a network packet."""
